@@ -1,4 +1,4 @@
-# Twitter
+# Twitter Clone API
 
 Given an `app.js` file and a database file `twitterClone.db` consisting of five tables `user`, `follower`, `tweet`, `reply`, and `like`.
 
@@ -62,8 +62,7 @@ Here, if user1 follows user2 then,
   "password":"biden@123"
 }
 ```
-
-<Section id="section1" >
+ <id="section1" >
 
 ### API 1
 
@@ -528,6 +527,15 @@ Created a Tweet
 <br/>
 
 Use `npm install` to install the packages.
+
+
+## Technologies Used
+- Node.js
+- Express
+- SQLite
+- JWT (JSON Web Tokens)
+- bcrypt (for password hashing)
+
 
 **Export the express instance using the default export syntax.**
 
